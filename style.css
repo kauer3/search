@@ -1,0 +1,85 @@
+html, body {
+    height: 95.5%;
+    font-family: sans-serif;
+}
+#links {
+    text-align: right;
+    margin: 20px;
+}
+a {
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.829);
+    text-decoration: none;
+    font-size: 13px;
+}
+a:hover {
+    text-decoration: underline;
+}
+#form1 {
+    text-align: center;
+    margin:auto;
+    margin-top: 0px;
+}
+#form {
+    height: 100%;
+    display: flex;
+}
+#img-txt {
+    width: 345px;
+    padding-right: 140px;
+    background-image:url(grey-icon.png), url(camera.png), url(microphone.png), url(blue-icon.jpg);
+    background-position: 15px 12px, 404px 3px, 455px, 493px;
+    background-size: 3.5%, 6.4%, 2.7%;
+    background-repeat: no-repeat;
+}
+#search-txt {
+    width: 485px;
+    padding-right: 50px;
+    background:url(grey-icon.png),  url(microphone.png);
+    background-position: 15px 12px, 545px;
+    background-size: 3.5%, 2.7% 20px;
+    background-repeat: no-repeat;
+}
+.txt {
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    outline: none;
+    font-size: 16px;
+    padding-left: 45px;
+}
+.txt:hover {
+    box-shadow: 0px 1px 5px rgba(128, 128, 128, 0.507);
+    border-color: transparent;
+}
+#search-txt::placeholder {
+    color: rgb(85, 85, 85);
+}
+.btn {
+    width: 140px;
+    height: 38px;
+    margin: 4px;
+    margin-top: 30px;
+    background-color: rgb(243, 243, 243);
+    color: grey;
+    border: 1px solid rgba(128, 128, 128, 0);
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+}
+.btn:hover {
+    background-color: rgba(243, 243, 243, 0.788);
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    box-shadow: 0px 1px rgba(172, 172, 172, 0.281);
+}
+#logo {
+    width: 270px;
+    margin: 20px;
+    margin-top: 100px;
+}
+text {
+    position: absolute;
+    margin-top: 174px;
+    margin-left: -77px;
+    color: rgb(96, 96, 255);
+}

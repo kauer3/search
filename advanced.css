@@ -1,0 +1,111 @@
+#adv-header {
+    background-color: rgb(241, 241, 241);
+    width: 98.9%;
+    height: 30px;
+    text-align: right;
+    padding: 15px;
+    margin: -8px;
+}
+#logo-ad {
+    float: left;
+    width: 91px;
+}
+#adv-link {
+    margin-bottom: 20px;
+}
+#subheader {
+    width: 98.9%;
+    height: 30px;
+    padding: 15px;
+    margin: -8px;
+}
+h2 {
+    vertical-align: 20px;
+    margin-left: 30px;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(216, 30, 30);
+}
+hr {
+    width: 101.8%;
+    border: 1px solid rgba(224, 224, 224, 0.466);
+    margin-left: -11px;
+    margin-top: 25px;
+}
+#parent-div {
+    padding-top: 55px;
+    padding-left: 37px;
+    text-align: left;
+}
+h4 {
+    font-weight: 100;
+}
+h6 {
+    float: right;
+}
+#label {
+    margin-top: -2px;
+}
+h5 {
+    font-weight: 100;
+    margin-top: 27px;
+}
+.txtbox {
+    margin-bottom: 14px;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 555px;
+    height: 24px;
+    border: 1px solid rgba(190, 190, 190, 0.795);
+    -webkit-box-shadow:inset 0 0 1px rgba(0, 0, 0, 0.397);
+    -moz-box-shadow:inset 0 0 1px rgba(0, 0, 0, 0.418);
+    box-shadow:inset 0 0 1px rgba(0, 0, 0, 0.438);
+}
+.txtbox:focus {
+    outline: 1px solid rgb(61, 129, 255);
+}
+#txt-inputs {
+    margin-top: -170px;
+    margin-left: 185px;
+}
+#todo {
+    float: left;
+    margin-top: -215px;
+    margin-left: 770px;
+}
+#todo-title {
+    font-size: 13px;
+    margin-top: -39px;
+    margin-right: 380px;
+    text-align: left;
+    float: right;
+    color: rgb(116, 116, 116);
+}
+.todos {
+    margin-bottom: 5px;
+    color: rgb(99, 99, 99);
+    float: left;
+    font-weight: lighter;
+}
+.font2 {
+    float: left;
+}
+#blue-btn {
+    height: 30px;
+    width: 120px;
+    background-color: rgba(0, 68, 255, 0.664);
+    color: white;
+    border: 1px solid rgba(0, 68, 255, 0.664);
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 450px;
+    outline: thin;
+}
+#blue-btn:hover {
+    border-color: rgb(0, 58, 216);
+    background-color: rgba(0, 68, 255, 0.76);
+}
+#blue-btn:focus {
+    border-color: rgb(89, 142, 255);
+}
